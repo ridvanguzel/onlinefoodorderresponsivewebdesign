@@ -1,0 +1,1074 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <title>Şeften Ye</title>
+    <style>
+        @import url("css/all.css");
+    </style>
+</head>
+
+<body id="page-body">
+
+    <!-- Navbar Started Here -->
+    <nav class="navbar navbar-expand-lg fixed-top navbar-dark" id="mainNavbar">
+        <div class="container-fluid">
+            <!-- Toggler button and logo -->
+                <a href="#page-body" class="navbar-brand" title="Şeften Ye"><img src="images/logo.png" alt="seftenye-logo"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#myNavbar" aria-controls="myNavbar" aria-label="toggler button" aria-expanded="false"> 
+                        <span class="navbar-toggler-icon"></span></span>
+                </button>
+            <!-- Toggler button and logo -->
+            <!-- Bootstrap offcanvas | Toggler menüye tıklayınca yana açılır menü -->
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="myNavbar" aria-labelledby="myLabel">
+                  
+                        <div class="offcanvas-header">
+                            <h5 class="offcanvas-title" id="myLabel"><img src="./images/logo.png" alt="" class="offcanvas-logo"></h5>
+                            <button type="button" class="btn-close text-reset  btn-close-canvas btn-close-white" data-bs-dismiss="offcanvas" aria-label="Closing offcanvas button"></button>
+                        </div>
+                    <!-- Offcanvas Body |Menu Items -->
+                        <div class="offcanvas-body">
+                            <ul class="navbar-nav text-uppercase ms-auto py-lg-2">
+                                <li class="nav-item"><a href="#slider" class="nav-link btn-close-canvas">HOME</a></li>
+                                <li class="nav-item"><a href="#chiefmeals" class="nav-link btn-close-canvas">CHEF MEALS</a></li>
+                                <li class="nav-item"><a href="#chiefs" class="nav-link btn-close-canvas">CHEFS</a>
+                                
+                                </li>
+                                <a href="#" class="nav-link">
+                                 <li class="btn btn-success btn-basket-nav nav-item btn-close-canvas" type="button">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-basket2-fill" viewBox="0 0 16 16">
+                                        <path d="M5.929 1.757a.5.5 0 1 0-.858-.514L2.217 6H.5a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h.623l1.844 6.456A.75.75 0 0 0 3.69 15h8.622a.75.75 0 0 0 .722-.544L14.877 8h.623a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1.717L10.93 1.243a.5.5 0 1 0-.858.514L12.617 6H3.383L5.93 1.757zM4 10a1 1 0 0 1 2 0v2a1 1 0 1 1-2 0v-2zm3 0a1 1 0 0 1 2 0v2a1 1 0 1 1-2 0v-2zm4-1a1 1 0 0 1 1 1v2a1 1 0 1 1-2 0v-2a1 1 0 0 1 1-1z"/>
+                                      </svg>
+                                 </li>
+                                </a>
+
+                                <a href="#" class="nav-link">
+                                    <li class="btn btn-login-nav nav-item btn-close-canvas" type="button">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-person-fill" viewBox="0 0 16 16">
+                                            <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3Zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z"/>
+                                          </svg>
+                                          Login
+                                    </li>
+                                   </a>
+                                   <a href="#" class="nav-link" type="button">
+                                    <li class="btn btn-create-nav nav-item btn-close-canvas">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-person-plus-fill" viewBox="0 0 16 16">
+                                            <path d="M1 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H1zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+                                            <path fill-rule="evenodd" d="M13.5 5a.5.5 0 0 1 .5.5V7h1.5a.5.5 0 0 1 0 1H14v1.5a.5.5 0 0 1-1 0V8h-1.5a.5.5 0 0 1 0-1H13V5.5a.5.5 0 0 1 .5-.5z"/>
+                                          </svg>
+                                         Create Account
+                                    </li>
+                                   </a>
+                            </ul>
+                        </div>
+                    <!-- Offcanvas Body |Menu Items -->
+                </div>
+            <!-- Bootstrap offcanvas | Toggler menüye tıklayınca yana açılır menü -->
+        </div>
+    </nav>
+    <!-- Navbar Finished Here -->
+
+    <!-- section Slider Started here -->      
+            <section  id="slider" >
+                    <div class="container-fluid slider-container position-relative" >
+                        <div class="row">
+                            <div class="col-12 ">
+                                <div class="col-6">
+                                    <div class="slider-text-1 position-absolute fw-bolder text-lg-center ">ORDER</div>
+                                    <div class="slider-text-2 position-absolute text-white fw-bolder text-uppercase">YOUR BEST</div>
+                                    <div class="slider-text-3 position-absolute text-white fw-bolder text-uppercase">HOMEMADE food</div>
+                                    <div class="slider-text-4 position-absolute fw-bolder text-uppercase">Anytime</div>
+
+                               
+                                    <input type="search" placeholder="Choose Your Location to Search Food" class="slider-search">
+                                    <span  class="search-icon position-absolute"><i class="bi bi-search position-absolute" ></i></span>
+                                   <a href="https://www.google.com/maps/place/%C4%B0zmir+Bak%C4%B1r%C3%A7ay+%C3%9Cniversitesi/@38.5821461,26.9614989,17z/data=!4m12!1m6!3m5!1s0x14bbce0d70291201:0xc309f7e92ee72bd9!2zxLB6bWlyIEJha8SxcsOnYXkgw5xuaXZlcnNpdGVzaQ!8m2!3d38.5821461!4d26.9636876!3m4!1s0x14bbce0d70291201:0xc309f7e92ee72bd9!8m2!3d38.5821461!4d26.9636876" target="_blank"> <i class="fa-solid fa-location-crosshairs fa-2x position-absolute search-location-icon" style="color: black;"></i></a>
+                                 
+                                     
+                                </div>
+                             
+                               
+
+
+                                <img src="./images/slider/slider2.png" class="img-fluid" alt="slider-resim" style="margin-top: 45px;">
+                              
+                            </div>
+                          
+                        </div>
+                    </div>
+            </section>
+    <!-- section Slider Finished -->
+
+   <!-- section Popular Meals Started Here-->  
+            <section id="chiefmeals" style="background-color:#9F0000;">
+                <div class="container-fluid overflow-hidden">
+                    <!-- Popular meals text and arrow icons -->
+                        <div class="row mb-4  p-1 p-sm-2 p-md-3 p-lg-4">
+                            <div class="col-12 col-sm-12 col-md-12 col-lg-10 p-meals-text d-flex justify-content-center  mt-3 me-5 me-sm-0 ">
+                                <h1 class="text-white p-meals-h1 mt-2 mt-5 ms-md-5 "  style="margin-top: 3rem;" >POPULAR MEALS</h1>
+                            </div>
+                            <div class="col-sm-2 d-none d-lg-block  me-auto position-relative "  style="margin-top: 4rem;">
+                                <i class="fa-sharp fa-solid fa-circle-arrow-left fa-3x  arrow-icons-1 " id="prev" style="color: white; "></i>
+                                <i class="fa-sharp fa-solid fa-circle-arrow-left fa-3x  arrow-icons-2 " id="next"  style="color: rgb(0, 0, 0);  transform: rotate(180deg);"></i>
+                              
+                            </div>
+                        </div>
+                        <!-- Popular meals text and arrow icons -->
+                        <!-- Popular meals slider show -->
+                   
+                    <!-- SWIPE SLIDER -->
+                        <div class="slide-container swiper"> 
+                          <div class="slide-content">
+                              <div class="card-wrapper swiper-wrapper">
+                                  <div class="card swiper-slide">
+                                      <div class="image-content">
+                                          <span class="overlay"></span>
+                  
+                                          <div class="card-image">
+                                              <img src="images/food/sarma.webp" alt="" class="card-img">
+                                          </div>
+                                      </div>
+                  
+                                      <div class="card-content">
+                                          <h2 class="name">ZEYTİNYAĞLI YAPRAK SARMASI</h2>
+                                          <p class="description">35,00 ₺</p>
+                  
+                                      </div>
+                                  </div>
+                                  <div class="card swiper-slide">
+                                      <div class="image-content">
+                                          <span class="overlay"></span>
+                  
+                                          <div class="card-image">
+                                              <img src="images/food/börek.jpg" alt="" class="card-img">
+                                          </div>
+                                      </div>
+                  
+                                      <div class="card-content">
+                                          <h2 class="name">PEYNİRLİ BÖREK</h2>
+                                          <p class="description">35,00 ₺</p>
+                  
+                                      </div>
+                                  </div>
+                                  <div class="card swiper-slide">
+                                      <div class="image-content">
+                                          <span class="overlay"></span>
+                  
+                                          <div class="card-image">
+                                              <img src="images/food/patlıcankebabı.jpg" alt="" class="card-img">
+                                          </div>
+                                      </div>
+                  
+                                      <div class="card-content">
+                                          <h2 class="name">PATLICAN KEBABI</h2>
+                                          <p class="description">35,00 ₺</p>
+                  
+                                      </div>
+                                  </div>
+                                  <div class="card swiper-slide">
+                                      <div class="image-content">
+                                          <span class="overlay"></span>
+                  
+                                          <div class="card-image">
+                                              <img src="images/food/kurbaiye.jpg" alt="" class="card-img">
+                                          </div>
+                                      </div>
+                  
+                                      <div class="card-content">
+                                          <h2 class="name">ÇİKOLATALI KURABİYE</h2>
+                                          <p class="description">35,00 ₺</p>
+                  
+                                      </div>
+                                  </div>
+                                  <div class="card swiper-slide">
+                                      <div class="image-content">
+                                          <span class="overlay"></span>
+                  
+                                          <div class="card-image">
+                                              <img src="images/food/türlü.webp" alt="" class="card-img">
+                                          </div>
+                                      </div>
+                  
+                                      <div class="card-content">
+                                          <h2 class="name">ETLİ PATATESLİ TÜRLÜ</h2>
+                                          <p class="description">35,00 ₺</p>
+                  
+                                      </div>
+                                  </div>
+                                  <div class="card swiper-slide">
+                                      <div class="image-content">
+                                          <span class="overlay"></span>
+                  
+                                          <div class="card-image">
+                                              <img src="images/food/pilav.jpg" alt="" class="card-img">
+                                          </div>
+                                      </div>
+                  
+                                      <div class="card-content">
+                                          <h2 class="name">BOL TEREYAĞLI PİRİNÇ PİLAVI</h2>
+                                          <p class="description">35,00 ₺</p>
+                  
+                                      </div>
+                                  </div>
+                                  <div class="card swiper-slide">
+                                      <div class="image-content">
+                                          <span class="overlay"></span>
+                  
+                                          <div class="card-image">
+                                              <img src="images/food/makarna.jfif" alt="" class="card-img">
+                                          </div>
+                                      </div>
+                  
+                                      <div class="card-content">
+                                          <h2 class="name">SALÇALI MAKARNA</h2>
+                                          <p class="description">35,00 ₺</p>
+                  
+                                      </div>
+                                  </div>
+                                  <div class="card swiper-slide">
+                                      <div class="image-content">
+                                          <span class="overlay"></span>
+                  
+                                          <div class="card-image">
+                                              <img src="images/food/çorba.webp" alt="" class="card-img">
+                                          </div>
+                                      </div>
+                  
+                                      <div class="card-content">
+                                          <h2 class="name">MERCİMEK ÇORBASI</h2>
+                                          <p class="description">35,00 ₺</p>
+                  
+                                      </div>
+                                  </div>
+                                  <div class="card swiper-slide">
+                                      <div class="image-content">
+                                          <span class="overlay"></span>
+                  
+                                          <div class="card-image">
+                                              <img src="images/food/kurufasulye.jpg" alt="" class="card-img">
+                                          </div>
+                                      </div>
+                  
+                                      <div class="card-content">
+                                          <h2 class="name">NANELİ KURU FASULYE</h2>
+                                          <p class="description">35,00 ₺</p>
+                  
+                                      </div>
+                                  </div>
+                                  <div class="card swiper-slide">
+                                    <div class="image-content">
+                                        <span class="overlay"></span>
+                
+                                        <div class="card-image">
+                                            <img src="images/food/sarma.webp" alt="" class="card-img">
+                                        </div>
+                                    </div>
+                
+                                    <div class="card-content">
+                                        <h2 class="name">ZEYTİNYAĞLI YAPRAK SARMASI</h2>
+                                        <p class="description">35,00 ₺</p>
+                
+                                    </div>
+                                </div>
+                                <div class="card swiper-slide">
+                                    <div class="image-content">
+                                        <span class="overlay"></span>
+                
+                                        <div class="card-image">
+                                            <img src="images/food/börek.jpg" alt="" class="card-img">
+                                        </div>
+                                    </div>
+                
+                                    <div class="card-content">
+                                        <h2 class="name">PEYNİRLİ BÖREK</h2>
+                                        <p class="description">35,00 ₺</p>
+                
+                                    </div>
+                                </div>
+                                <div class="card swiper-slide">
+                                    <div class="image-content">
+                                        <span class="overlay"></span>
+                
+                                        <div class="card-image">
+                                            <img src="images/food/patlıcankebabı.jpg" alt="" class="card-img">
+                                        </div>
+                                    </div>
+                
+                                    <div class="card-content">
+                                        <h2 class="name">PATLICAN KEBABI</h2>
+                                        <p class="description">35,00 ₺</p>
+                
+                                    </div>
+                                </div>
+                                <div class="card swiper-slide">
+                                    <div class="image-content">
+                                        <span class="overlay"></span>
+                
+                                        <div class="card-image">
+                                            <img src="images/food/kurbaiye.jpg" alt="" class="card-img">
+                                        </div>
+                                    </div>
+                
+                                    <div class="card-content">
+                                        <h2 class="name">ÇİKOLATALI KURABİYE</h2>
+                                        <p class="description">35,00 ₺</p>
+                
+                                    </div>
+                                </div>
+                                <div class="card swiper-slide">
+                                    <div class="image-content">
+                                        <span class="overlay"></span>
+                
+                                        <div class="card-image">
+                                            <img src="images/food/türlü.webp" alt="" class="card-img">
+                                        </div>
+                                    </div>
+                
+                                    <div class="card-content">
+                                        <h2 class="name">ETLİ PATATESLİ TÜRLÜ</h2>
+                                        <p class="description">35,00 ₺</p>
+                
+                                    </div>
+                                </div>
+                                <div class="card swiper-slide">
+                                    <div class="image-content">
+                                        <span class="overlay"></span>
+                
+                                        <div class="card-image">
+                                            <img src="images/food/pilav.jpg" alt="" class="card-img">
+                                        </div>
+                                    </div>
+                
+                                    <div class="card-content">
+                                        <h2 class="name">BOL TEREYAĞLI PİRİNÇ PİLAVI</h2>
+                                        <p class="description">35,00 ₺</p>
+                
+                                    </div>
+                                </div>
+                                <div class="card swiper-slide">
+                                    <div class="image-content">
+                                        <span class="overlay"></span>
+                
+                                        <div class="card-image">
+                                            <img src="images/food/makarna.jfif" alt="" class="card-img">
+                                        </div>
+                                    </div>
+                
+                                    <div class="card-content">
+                                        <h2 class="name">SALÇALI MAKARNA</h2>
+                                        <p class="description">35,00 ₺</p>
+                
+                                    </div>
+                                </div>
+                                <div class="card swiper-slide">
+                                    <div class="image-content">
+                                        <span class="overlay"></span>
+                
+                                        <div class="card-image">
+                                            <img src="images/food/çorba.webp" alt="" class="card-img">
+                                        </div>
+                                    </div>
+                
+                                    <div class="card-content">
+                                        <h2 class="name">MERCİMEK ÇORBASI</h2>
+                                        <p class="description">35,00 ₺</p>
+                
+                                    </div>
+                                </div>
+                                <div class="card swiper-slide">
+                                    <div class="image-content">
+                                        <span class="overlay"></span>
+                
+                                        <div class="card-image">
+                                            <img src="images/food/kurufasulye.jpg" alt="" class="card-img">
+                                        </div>
+                                    </div>
+                
+                                    <div class="card-content">
+                                        <h2 class="name">NANELİ KURU FASULYE</h2>
+                                        <p class="description">35,00 ₺</p>
+                
+                                    </div>
+                                </div>
+                                  
+                              </div>
+                          </div>
+                  
+                          
+                          <div class="swiper-pagination"></div>
+                       </div>
+                   <!-- SWIPE SLIDER -->
+
+
+
+                      <!-- KENDİ SLIDE DOSYAM -->
+<!-- 
+                     <div class="row mb-5  p-1 p-sm-2 p-md-3 p-lg-2 text-center text-white d-flex align-items-center justify-content-center gy-4 g-2 g-sm-none">
+                        <div class="col-3 col-sm-3 col-lg-3">
+                              <div class="food">
+                                <div class="food-img">
+                                    <img src="./images/food/sarma.webp" alt="" class="img-fluid food-image-1">
+                                </div>
+                                <div class="food-img-heading  ">
+                                    <div class="f-heading text-uppercase">ZEYTİNYAĞLI Yaprak sarması</div>
+                                    <div class="f-price text-uppercase ">35,00 ₺</div>
+                                </div>
+                            </div>
+                            
+                        </div>
+                        <div class="col-3 col-sm-3 col-lg-3 ">
+                            <div class="food">
+                                <div class="food-img bg-dark ">
+                                    <img src="./images/food/börek.jpg" alt="" class="img-fluid food-image-1">
+                                </div>
+                                <div class="food-img-heading ">
+                                    <div class="f-heading text-uppercase">PEYNİRLİ BÖREK</div>
+                                    <div class="f-price text-uppercase ">25,00 ₺</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-3 col-sm-3 col-lg-3 ">
+                            <div class="food">
+                                <div class="food-img">
+                                    <img src="./images/food/pilav.jpg" alt="" class="img-fluid food-image-1">
+                                </div>
+                                <div class="food-img-heading ">
+                                    <div class="f-heading text-uppercase">ŞEHRİYELİ PİRİNÇ PİLAVİ</div>
+                                    <div class="f-price text-uppercase">20,00 ₺</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-3 col-sm-3 col-lg-3">
+                            <div class="food">
+                                <div class="food-img">
+                                    <img src="./images/food/kurufasulye.jpg" alt="" class="img-fluid food-image-1">
+                                </div>
+                                <div class="food-img-heading ">
+                                    <div class="f-heading text-uppercase">NANELİ KURU FASULYE</div>
+                                    <div class="f-price text-uppercase">20,00 ₺</div>
+                                </div>
+                            </div>
+                        </div>
+                      </div>  -->
+                      <!-- KENDİ SLIDE DOSYAM -->
+
+                  </div> 
+           
+                    
+                     
+                        <!-- Popular meals slider show -->
+              
+                 
+                </div>
+            </section>
+   <!-- section Popular Meals Finished Here-->
+
+   <!-- section Categories Started Here -->
+            <section id="categories">
+                <div class="container">
+                    <div class="row mt-5 p-3">
+                        <div class="col-12 text-dark mt-3 text-center">
+                            <h1 style="font-size:65px; color:#606060; font-weight:500; font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif">CATEGORIES</h1>
+                        </div>
+                    </div>
+                    <div class="row text-center d-flex justify-content-center vertical-aling-middle p-5 mx-auto pt-3 mb-4" >
+                        
+                        <div class="col-4 col-sm-4 col-md-6 col-lg-2  p-2 py-4 mx-auto d-flex justify-content-center m-3 m-5-sm">
+                            <div class="c-f-circle">
+                               <img src="./images/food/börek.jpg" class="img-fluid  c-images" alt="">
+                               <h3 class="my-3" style="font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; font-weight: 600; font-size: 24px;">HAMUR İŞİ</h3>
+                            </div>
+                            
+                         </div>
+                         <div class="col-4 col-sm-4 col-md-6 col-lg-2  p-2 py-4 mx-auto  d-flex justify-content-center m-3 m-5-sm">
+                            <div class="c-f-circle">
+                                <img src="./images/food/ekemk.webp" class="img-fluid  c-images" alt="">
+                                <h3 class="my-3" style="font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; font-weight: 600; font-size: 24px;">EKMEKLER</h3>
+                             </div>
+                         </div> 
+                         <div class="col-4 col-sm-4 col-md-6 col-lg-2   p-2 py-4 mx-auto  d-flex justify-content-center m-3 m-5-sm">
+                            <div class="c-f-circle">
+                                <img src="./images/food/türlü.webp" class="img-fluid  c-images" alt="">
+                                <h3 class="my-3" style="font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; font-weight: 600; font-size: 24px;">SEBZELİ YEMEKLER</h3>
+                             </div>
+                         </div>
+                         <div class="col-4 col-sm-4 col-md-6 col-lg-2  p-2 py-4 mx-auto  d-flex justify-content-center m-3 m-5-sm">
+                            <div class="c-f-circle">
+                                <img src="./images/food/pilav.jpg" class="img-fluid  c-images" alt="">
+                                <h3 class="my-3" style="font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; font-weight: 600; font-size: 24px;">PİLAVLAR</h3>
+                             </div>
+                         </div>
+                         <div class="col-4 col-sm-4 col-md-6 col-lg-2   p-2 py-4 mx-auto  d-flex justify-content-center m-3 m-5-sm">
+                            <div class="c-f-circle">
+                                <img src="./images/food/patlıcankebabı.jpg" class="img-fluid  c-images" alt="">
+                                <h3 class="my-3" style="font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; font-weight: 600; font-size: 24px;">ETLİ YEMEKLER</h3>
+                             </div>
+                         </div>
+
+                         <div class="col-4 col-sm-4 col-md-6 col-lg-2  p-2 py-4 mx-auto  d-flex justify-content-center m-3 m-5-sm">
+                            <div class="c-f-circle">
+                                <img src="./images/food/makarna.jfif" class="img-fluid  c-images" alt="">
+                                <h3 class="my-3" style="font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; font-weight: 600; font-size: 24px;">MAKARNA</h3>
+                             </div>
+                         </div>
+                    </div>
+                </div>
+            </section>
+   <!-- section Categories Finished Here -->
+   
+   <!-- section Chiefs Started Here -->
+            <section id="chiefs" style="background-color: #9F0000;">
+              <div class="container">
+                <div class="row mt-5" style="padding: 5rem; margin-bottom: -3rem;">
+                    <div class="col-12 text-center">
+                            <h1 style="font-size: 65px; color:#ffffff;" class=" chief-heading">TOP 12 CHIEFS</h1>
+                    </div>
+                </div>
+                <div class="row  text-center">
+                    <div class="col-3">
+                        <div class="chief">
+                            <div class="chief-img">
+                                <img src="./images/chiefs-profil/Ellipse 2 (1).png" alt="">
+                            </div>
+                            <div class="chief-info">
+                                <h4 class="text-uppercase chiefs-h4-text">Seda'nın Mutfağı</h4>
+                                <h5 class="text-white chiefs-h5-text">Ev Hanımı / Konya</h5>
+                            </div>
+                            <div class="chief-stars">
+                                 <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="#FFC700" class="bi bi-star-fill " viewBox="0 0 16 16">
+                                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                  </svg>
+                                  <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="#FFC700" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                  </svg>
+                                  <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="#FFC700" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                  </svg>
+                                  <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="#FFC700" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                  </svg>
+                                  <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="#FFC700" class="bi bi-star" viewBox="0 0 16 16">
+                                    <path d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288L8 2.223l1.847 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.565.565 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z"/>
+                                  </svg>       
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="chief">
+                            <div class="chief-img">
+                                <img src="./images/chiefs-profil/Ellipse 2 (12).png" alt="">
+                            </div>
+                            <div class="chief-info">
+                                <h4 class="text-uppercase chiefs-h4-text">Seda'nın Mutfağı</h4>
+                                <h5 class="text-white chiefs-h5-text">Ev Hanımı / Konya</h5>
+                            </div>
+                            <div class="chief-stars">
+                                 <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="#FFC700" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                  </svg>
+                                  <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="#FFC700" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                  </svg>
+                                  <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="#FFC700" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                  </svg>
+                                  <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="#FFC700" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                  </svg>
+                                  <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="#FFC700" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                  </svg>            
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="chief">
+                            <div class="chief-img">
+                                <img src="./images/chiefs-profil/Ellipse 2 (11).png" alt="">
+                            </div>
+                            <div class="chief-info">
+                                <h4 class="text-uppercase chiefs-h4-text">Seda'nın Mutfağı</h4>
+                                <h5 class="text-white chiefs-h5-text">Ev Hanımı / Konya</h5>
+                            </div>
+                            <div class="chief-stars">
+                                 <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="#FFC700" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                  </svg>
+                                  <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="#FFC700" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                  </svg>
+                                  <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="#FFC700" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                  </svg>
+                                  <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="#FFC700" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                  </svg>
+                                  <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="#FFC700" class="bi bi-star" viewBox="0 0 16 16">
+                                    <path d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288L8 2.223l1.847 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.565.565 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z"/>
+                                  </svg>           
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="chief">
+                            <div class="chief-img">
+                                <img src="./images/chiefs-profil/Ellipse 2 (10).png" alt="">
+                            </div>
+                            <div class="chief-info">
+                                <h4 class="text-uppercase chiefs-h4-text">Seda'nın Mutfağı</h4>
+                                <h5 class="text-white chiefs-h5-text">Ev Hanımı / Konya</h5>
+                            </div>
+                            <div class="chief-stars">
+                                 <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="#FFC700" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                  </svg>
+                                  <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="#FFC700" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                  </svg>
+                                  <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="#FFC700" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                  </svg>
+                                  <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="#FFC700" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                  </svg>
+                                  <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="#FFC700" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                  </svg>            
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row  text-center">
+                    <div class="col-3">
+                        <div class="chief">
+                            <div class="chief-img">
+                                <img src="./images/chiefs-profil/Ellipse 2 (9).png" alt="">
+                            </div>
+                            <div class="chief-info">
+                                <h4 class="text-uppercase chiefs-h4-text">Seda'nın Mutfağı</h4>
+                                <h5 class="text-white chiefs-h5-text">Ev Hanımı / Konya</h5>
+                            </div>
+                            <div class="chief-stars">
+                                 <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="#FFC700" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                  </svg>
+                                  <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="#FFC700" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                  </svg>
+                                  <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="#FFC700" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                  </svg>
+                                  <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="#FFC700" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                  </svg>
+                                  <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="#FFC700" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                  </svg>            
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="chief">
+                            <div class="chief-img">
+                                <img src="./images/chiefs-profil/Ellipse 2 (8).png" alt="">
+                            </div>
+                            <div class="chief-info">
+                                <h4 class="text-uppercase chiefs-h4-text">Seda'nın Mutfağı</h4>
+                                <h5 class="text-white chiefs-h5-text">Ev Hanımı / Konya</h5>
+                            </div>
+                            <div class="chief-stars">
+                                 <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="#FFC700" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                  </svg>
+                                  <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="#FFC700" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                  </svg>
+                                  <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="#FFC700" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                  </svg>
+                                  <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="#FFC700" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                  </svg>
+                                  <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="#FFC700" class="bi bi-star" viewBox="0 0 16 16">
+                                    <path d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288L8 2.223l1.847 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.565.565 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z"/>
+                                  </svg>           
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="chief">
+                            <div class="chief-img">
+                                <img src="./images/chiefs-profil/Ellipse 2 (7).png" alt="">
+                            </div>
+                            <div class="chief-info">
+                                <h4 class="text-uppercase chiefs-h4-text">Seda'nın Mutfağı</h4>
+                                <h5 class="text-white chiefs-h5-text">Ev Hanımı / Konya</h5>
+                            </div>
+                            <div class="chief-stars">
+                                 <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="#FFC700" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                  </svg>
+                                  <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="#FFC700" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                  </svg>
+                                  <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="#FFC700" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                  </svg>
+                                  <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="#FFC700" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                  </svg>
+                                  <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="#FFC700" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                  </svg>            
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="chief">
+                            <div class="chief-img">
+                                <img src="./images/chiefs-profil/Ellipse 2 (6).png" alt="">
+                            </div>
+                            <div class="chief-info">
+                                <h4 class="text-uppercase chiefs-h4-text">Seda'nın Mutfağı</h4>
+                                <h5 class="text-white chiefs-h5-text">Ev Hanımı / Konya</h5>
+                            </div>
+                            <div class="chief-stars">
+                                 <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="#FFC700" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                  </svg>
+                                  <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="#FFC700" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                  </svg>
+                                  <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="#FFC700" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                  </svg>
+                                  <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="#FFC700" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                  </svg>
+                                  <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="#FFC700" class="bi bi-star-half" viewBox="0 0 16 16">
+                                    <path d="M5.354 5.119 7.538.792A.516.516 0 0 1 8 .5c.183 0 .366.097.465.292l2.184 4.327 4.898.696A.537.537 0 0 1 16 6.32a.548.548 0 0 1-.17.445l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256a.52.52 0 0 1-.146.05c-.342.06-.668-.254-.6-.642l.83-4.73L.173 6.765a.55.55 0 0 1-.172-.403.58.58 0 0 1 .085-.302.513.513 0 0 1 .37-.245l4.898-.696zM8 12.027a.5.5 0 0 1 .232.056l3.686 1.894-.694-3.957a.565.565 0 0 1 .162-.505l2.907-2.77-4.052-.576a.525.525 0 0 1-.393-.288L8.001 2.223 8 2.226v9.8z"/>
+                                  </svg>        
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row  text-center">
+                    <div class="col-3">
+                        <div class="chief">
+                            <div class="chief-img">
+                                <img src="./images/chiefs-profil/Ellipse 2 (5).png" alt="">
+                            </div>
+                            <div class="chief-info">
+                                <h4 class="text-uppercase chiefs-h4-text">Seda'nın Mutfağı</h4>
+                                <h5 class="text-white chiefs-h5-text">Ev Hanımı / Konya</h5>
+                            </div>
+                            <div class="chief-stars">
+                                 <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="#FFC700" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                  </svg>
+                                  <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="#FFC700" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                  </svg>
+                                  <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="#FFC700" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                  </svg>
+                                  <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="#FFC700" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                  </svg>
+                                  <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="#FFC700" class="bi bi-star-half" viewBox="0 0 16 16">
+                                    <path d="M5.354 5.119 7.538.792A.516.516 0 0 1 8 .5c.183 0 .366.097.465.292l2.184 4.327 4.898.696A.537.537 0 0 1 16 6.32a.548.548 0 0 1-.17.445l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256a.52.52 0 0 1-.146.05c-.342.06-.668-.254-.6-.642l.83-4.73L.173 6.765a.55.55 0 0 1-.172-.403.58.58 0 0 1 .085-.302.513.513 0 0 1 .37-.245l4.898-.696zM8 12.027a.5.5 0 0 1 .232.056l3.686 1.894-.694-3.957a.565.565 0 0 1 .162-.505l2.907-2.77-4.052-.576a.525.525 0 0 1-.393-.288L8.001 2.223 8 2.226v9.8z"/>
+                                  </svg>          
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="chief">
+                            <div class="chief-img">
+                                <img src="./images/chiefs-profil/Ellipse 2 (4).png" alt="">
+                            </div>
+                            <div class="chief-info">
+                                <h4 class="text-uppercase chiefs-h4-text">Seda'nın Mutfağı</h4>
+                                <h5 class="text-white chiefs-h5-text">Ev Hanımı / Konya</h5>
+                            </div>
+                            <div class="chief-stars">
+                                 <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="#FFC700" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                  </svg>
+                                  <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="#FFC700" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                  </svg>
+                                  <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="#FFC700" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                  </svg>
+                                  <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="#FFC700" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                  </svg>
+                                  <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="#FFC700" class="bi bi-star-half" viewBox="0 0 16 16">
+                                    <path d="M5.354 5.119 7.538.792A.516.516 0 0 1 8 .5c.183 0 .366.097.465.292l2.184 4.327 4.898.696A.537.537 0 0 1 16 6.32a.548.548 0 0 1-.17.445l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256a.52.52 0 0 1-.146.05c-.342.06-.668-.254-.6-.642l.83-4.73L.173 6.765a.55.55 0 0 1-.172-.403.58.58 0 0 1 .085-.302.513.513 0 0 1 .37-.245l4.898-.696zM8 12.027a.5.5 0 0 1 .232.056l3.686 1.894-.694-3.957a.565.565 0 0 1 .162-.505l2.907-2.77-4.052-.576a.525.525 0 0 1-.393-.288L8.001 2.223 8 2.226v9.8z"/>
+                                  </svg>           
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="chief">
+                            <div class="chief-img">
+                                <img src="./images/chiefs-profil/Ellipse 2 (3).png" alt="">
+                            </div>
+                            <div class="chief-info">
+                                <h4 class="text-uppercase chiefs-h4-text">Seda'nın Mutfağı</h4>
+                                <h5 class="text-white chiefs-h5-text">Ev Hanımı / Konya</h5>
+                            </div>
+                            <div class="chief-stars">
+                                 <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="#FFC700" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                  </svg>
+                                  <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="#FFC700" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                  </svg>
+                                  <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="#FFC700" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                  </svg>
+                                  <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="#FFC700" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                  </svg>
+                                  <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="#FFC700" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                  </svg>            
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="chief">
+                            <div class="chief-img">
+                                <img src="./images/chiefs-profil/Ellipse 2 (2).png" alt="">
+                            </div>
+                            <div class="chief-info">
+                                <h4 class="text-uppercase chiefs-h4-text">Seda'nın Mutfağı</h4>
+                                <h5 class="text-white chiefs-h5-text">Ev Hanımı / Konya</h5>
+                            </div>
+                            <div class="chief-stars">
+                                 <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="#FFC700" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                  </svg>
+                                  <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="#FFC700" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                  </svg>
+                                  <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="#FFC700" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                  </svg>
+                                  <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="#FFC700" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                  </svg>
+                                  <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="#FFC700" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                  </svg>            
+                            </div>
+                        </div>
+                    </div>
+                </div>
+              </div>
+            </section>
+   <!-- section Chiefs Finished Here -->
+   
+   <!-- section Pricing Started Here -->
+            <section id="pricing" style="background-color: #ffffff;">
+                <div class="container-fluid">
+                  <div class="row">
+                    <div class="col-12 text-center">
+                      <h1 style="font-size: 65px; color:#606060;" class=" chief-heading">PRICING</h1>
+                    </div>
+                  </div>
+                  <div class="row p-3 mt-4 ms-5">
+                    <div class="col-12 col-lg-6 col-xl-6 col-xxl-4 d-flex ">
+                        <div class="pricing-1">
+                              <div class="pricing-heading-color-1">
+                              </div>
+                              <div class="heading">
+                                <h4 class="text-center mt-3">Starter</h4>
+                              </div>
+                              <div class="sub-price">
+                                <h3 class="text-center">Free</h3>
+                              </div>
+                              <div class="pricing-body">
+                                <div> 
+                                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check2" viewBox="0 0 16 16">
+                                  <path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"/></svg>
+                                  <span class="pricing-text">Loading 3 food products</span>
+                                </div>
+                                <div>
+                                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check2" viewBox="0 0 16 16">
+                                  <path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"/>
+                                  </svg>
+                                  <span class="pricing-text">Receiving up to 10 orders 
+                                    per month</span>
+                                </div>
+                             
+                                <div> <button type="button" class="btn btn-danger btn-starter" style="border-radius: 50px; color: white;">Choose Starter</button></div>
+
+                                <!-- <button type="button" class="button-starter" style="color: white;">Choose Starter</button> -->
+                              </div>
+                          </div>
+                       
+                    </div>
+                    <div class="col-12 col-lg-6 col-xl-6 col-xxl-4">
+                      <div class="pricing-2">
+                        <div class="pricing-heading-color-2">
+
+                        </div>
+                        <div class="heading">
+                          <h4 class="text-center mt-3">Basic</h4>
+                        </div>
+                        <div class="sub-price">
+                          <h3 class="text-center">30 TL/Month</h3>
+                        </div>
+                        <div class="pricing-body">
+                          <div> 
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check2" viewBox="0 0 16 16">
+                            <path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"/></svg>
+                            <span class="pricing-text">Loading 10 food products</span>
+                          </div>
+                          <div>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check2" viewBox="0 0 16 16">
+                            <path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"/>
+                            </svg>
+                            <span class="pricing-text">Receiving up to 100 orders 
+                              per month</span>
+                          </div>
+                       
+                          <div> <button type="button" class="btn btn-success btn-starter" style="border-radius: 50px;">Choose Basic</button></div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-12 col-lg-12 col-xl-12 col-xxl-4">
+                      <div class="pricing-3">
+                        <div class="pricing-heading-color-3">
+
+                        </div>
+                        <div class="heading">
+                          <h4 class="text-center mt-3">Advanced</h4>
+                        </div>
+                        <div class="sub-price">
+                          <h3 class="text-center">100 TL/Month</h3>
+                        </div>
+                        <div class="pricing-body">
+                          <div> 
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check2" viewBox="0 0 16 16">
+                            <path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"/></svg>
+                            <span class="pricing-text">Loading unlimited food 
+                              products</span>
+                          </div>
+                          <div>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check2" viewBox="0 0 16 16">
+                            <path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"/>
+                            </svg>
+                            <span class="pricing-text">Receiving up to unlimited
+                              orders per month</span>
+                          </div>
+                       
+                          <div> <button type="button" class="btn btn-primary btn-starter" style="border-radius: 50px;">Choose Advanced</button></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </section>
+   <!-- section Pricing Finised Here -->
+
+   <!-- section Footer Started Here -->
+            <section id="footer" style="background-color: #9F0000;">
+              <div class="container-fluid">
+                  <div class="row mt-5 overflow-hidden p-4">
+                    <div class="col-12 col-lg-3 mt-4">
+                          <div class="footer-logo mt-3"><img src="./images/logo.png" alt=""></div>
+                          <p class="p-4 text-white" style="font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; font-weight: 300;">Şeften Ye brings together housewives or anyone who wants to cook and sell at home,  and customers who want to eat homemade food, and offers a variety of sales and home-cooked meals in the form of weight, which is not available in other food platforms, at affordable prices from the hands of the mother. Home meal from housewife to customer. Eat From the Chef, Let the Chef Make, You Eat</p>
+                    </div>
+                    <div class="col-12 col-lg-3 ms-4 mt-4">
+                          <div class="mt-4 text-white"><h5>USEFUL LINKS</h5></div>
+                          <ul class="py-4">
+                            <li  class="mb-2"><i class="fa-solid fa-house text-white"></i><span><a href="#slider">Home</a></span></li>
+                            <li  class="mb-2"><i class="fa-solid fa-address-card text-white"></i><span><a href="#">About Us</a></span></li>
+                            <li  class="mb-2"><img src="./images/Vector.png" style="width: 16px; height: 16px;" alt=""><span><a href="#chiefs">Chefs</a></span></li>
+                            <li  class="mb-2"><i class="fa-solid fa-burger text-white"></i><span><a href="#chiefs">Chef Meals</a></span></li>
+
+                          <li  class="mb-2"><i class="fa-solid fa-phone text-white"></i><span><a href="#chiefs">Contact Us</a></span></li>
+                          </ul>
+                    </div>
+                    <div class="col-12 col-lg-1 p-2 mt-4 bg-dark d-none d.block-lg">
+                      <div class="footer-vr"></div>
+                    </div>
+                    <div class="col-12 col-lg-4 flex-fill ms-4 mt-4">
+                      <div class="mt-4 text-white"><h5>NEWSLETTER</h5></div>
+                      <div class="mt-3">
+                          <span  class="footer-mail-icon position-absolute">
+                              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16">
+                              <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z"/>
+                              </svg>
+                          </span>
+                          <input type="mail" placeholder="Your Email Adress " style="width:550px; height: 60px; color: #ccc;">
+                          <div><a href="subscribing.html" target="_blank"><button class="btn mt-4 footer-btn" >GET SUBSCRIPTION</button></a></div>
+                          <div>
+                           <a href="https://www.instagram.com/seftenye/" target="_blank"> <div class="sm sm-instagram">
+                          
+                              <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+                                <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"/>
+                              </svg>
+                           
+                          </div></a>
+                  
+                          
+                            <a href="https://www.linkedin.com/company/%C5%9Feften-ye/" target="_blank"><div class="sm sm-linkedln">
+                              <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
+                                <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"/>
+                              </svg>
+                            </div></a>
+                          </div>
+                      </div>
+                    </div>
+                    
+                  </div>
+                  <hr  style="background-color: #ffffff;">
+                  <div class="row mt-2 p-3" style="background-color: #9F0000;">
+                    <div class="col-12">
+                      <h6 class="text-center text-white" style="font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">Şeften Ye &COPY; 2022 all rights reserved.</h6>
+                    </div>
+                </div>
+              </div>
+            </section>
+   <!-- section Footer Finished Here -->
+   
+    <!-- BOOTSTRAP JS AND MYJS FILES -->
+        <script src="js/bootstrap/bootstrap.bundle.min.js"></script>
+        <script src="js/myjs/my.js"></script>
+        <script src="js/swiper-bundle.min.js" ></script>
+    <!-- BOOTSTRAP JS AND MYCSS FILES -->
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".slide-content", {
+        slidesPerView: 4,
+        spaceBetween: 25,
+        loop: false,
+        centerSlide: 'true',
+        fade: 'true',
+        grabCursor: 'true',
+        loopFillGroupWithBlank: true,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        navigation: {
+          nextEl: "#next",
+          prevEl: "#prev",
+        },
+
+      
+      });
+    </script>
+</body>
+
+</html>
+

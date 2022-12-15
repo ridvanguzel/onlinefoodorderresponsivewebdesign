@@ -1,0 +1,2011 @@
+body {
+    margin: 0;
+}
+
+/* Navbar Css */
+
+#mainNavbar {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-color: #9F0000;
+    height: 75px;
+}
+
+#mainNavbar .navbar-nav .nav-item .nav-link {
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 0.06em;
+    font-size: 1em;
+    padding: 25px 20px;
+}
+
+#mainNavbar .navbar-nav .nav-item .nav-link:active,
+#mainNavbar .navbar-nav .nav-item .nav-link:hover {
+    color: #333;
+}
+
+.offcanvas {
+    background-color: #9F0000;
+}
+
+.btn-basket-nav {
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+    background-color: #423E3E;
+    border: 1px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3px;
+    margin-left: 10px;
+}
+
+.btn-basket-nav:hover {
+    border: 1px solid white;
+    background-color: rgb(57, 57, 57);
+
+}
+
+.btn-login-nav {
+    width: 140px;
+    height: 50px;
+    border-radius: 20px;
+    border: 1px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3px;
+    margin-left: 10px;
+    color: white;
+}
+
+.btn-login-nav:hover {
+    border: 1px solid white;
+    background-color: rgb(57, 57, 57);
+    color: white;
+
+}
+
+.bi-person-fill {
+    margin-right: 10px;
+}
+
+.btn-create-nav {
+    width: 280px;
+    height: 50px;
+    border-radius: 20px;
+    border: 1px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3px;
+    margin-left: 10px;
+    color: white;
+}
+
+.btn-create-nav:hover {
+    border: 1px solid white;
+    background-color: rgb(57, 57, 57);
+    color: white;
+
+}
+
+.bi-person-plus-fill {
+    margin-right: 10px;
+}
+
+.offcanvas-logo {
+    margin-top: 5px;
+}
+
+.navbar-toggler {
+    border: none !important;
+}
+
+.btn-close {
+    color: white !important;
+}
+
+/* Navbar Css */
+
+/* main Slider Css */
+.slider-container {
+    padding: 0;
+    overflow: hidden;
+}
+
+.slider-text-1 {
+
+    margin-top: 13.5rem;
+    margin-left: 10.5rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 3rem;
+    color: #F94B4B;
+}
+
+.slider-text-2 {
+    margin-top: 17rem;
+    margin-left: 10.5rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 3rem;
+}
+
+.slider-text-3 {
+    margin-top: 20.5rem;
+    margin-left: 10.5rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 3rem;
+}
+
+.slider-text-4 {
+    margin-top: 23.5rem;
+    margin-left: 29rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 3rem;
+    color: #F94B4B;
+}
+
+.slider-search {
+    margin-top: 31rem;
+    position: absolute;
+    margin-left: 10.5rem;
+    width: 42rem;
+    height: 4rem;
+    border: none;
+    border-radius: 75px;
+    outline: none;
+}
+
+.slider-search:focus {
+    box-shadow: 1px 1px 8px #333;
+}
+
+.search-icon {
+    margin-top: 31.5rem;
+    margin-left: 11.5rem;
+    background-color: #9F0000;
+    padding: 1rem;
+    width: 45px;
+    height: 45px;
+    border-radius: 200px;
+
+}
+
+.bi-search {
+    display: flex;
+    text-align: center;
+    vertical-align: middle;
+    justify-content: center;
+    color: white;
+
+}
+
+input[type=search] {
+    padding-left: 6rem;
+}
+
+
+.fa-location-crosshairs {
+
+    margin-top: 32rem;
+    margin-left: 49rem;
+
+}
+
+/* main Slider Css */
+
+/* Popular meals Css */
+        .p-meals-h1{
+            margin-left: 12rem !important;
+            font-size: 65px !important;
+        }
+
+        .arrow-icons-1{
+            text-align: center;
+            position: absolute;
+            margin-left: 10%;
+            margin-top: 7%;
+        }
+        .arrow-icons-2{
+            text-align: center;
+            position: absolute;
+            margin-left: 60%;
+            margin-top: 7%;
+        }
+        /* popular meals slider */
+                /* .food{
+                    max-width: 20rem;
+                    margin-left:auto;
+                    margin-right: auto;
+                    background-color: rgb(255, 255, 255);
+                    height: 26rem;
+                    border-radius: 75px;
+                    border:3px solid white;
+                }
+                .food-img{
+                    max-width: 20rem;
+                    margin-left: auto;
+                    margin-right: auto;
+                    background-color: rgb(255, 255, 255);
+                    height: 15rem;
+                    border-radius: 75px 75px 0 0 ;
+                    margin-bottom: 3.5rem;
+                    
+                    
+                }
+                .f-heading{
+                    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                    font-weight: bold;
+                    font-size: 1.2rem;
+                    color: black;
+                }
+                .f-price{
+                    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                    font-weight:bold;
+                    font-size: 30px;
+                    color: #9F0000;
+                }
+                .food-image-1{
+                    border-radius: 75px 75px 0 0;
+                    height: 16rem;
+
+                    
+                } */
+            
+              
+        /* popular meals slider */
+/* Popular meals Css */
+
+
+/* Category Css */
+.c-f-circle{
+    width: 190px;
+    height: 175px;
+    border-radius: 100px;
+    border: 3px solid #9F0000;
+
+}
+.c-images{
+    width: 185px;
+    height: 170px;
+    border-radius: 100px;
+    text-align: center;
+}
+
+
+/* Category Css */
+
+/* Chiefs css */
+    .chief{
+        max-width: 20rem;
+        height: 16rem;
+        text-align: center;
+        justify-content: center;
+        margin-top: 10px;
+        margin-bottom: 50px;
+        padding: 5px;
+        position: relative;
+    }
+    .chief-img{
+        width: 8rem;
+        height: 8rem;
+        text-align: center;
+        border-radius: 100px;
+        margin: auto;
+        margin-bottom: 14px;
+    }
+
+    .chiefs-h4-text{
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-weight: 500;
+            color: white;
+            font-size: 20px!important;
+            margin-bottom: 2px;
+    }
+    .chiefs-h5-text{
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-weight:100;
+            color: white;
+            font-size: 17px!important;
+           
+    }
+
+    .chief-img img{
+        width: 8rem;
+        height: 8rem;
+    }
+
+
+/* Chiefs css */
+
+/* Pricing css started here */
+    .pricing-1 {
+        max-width: 25rem;
+        height: 30rem;
+        background-color: #dedede;
+        border-radius: 20px;
+        position: relative;
+    }
+
+    .pricing-heading-color-1{
+        width: 25rem;
+        background-color:#dc3545;
+        border-radius: 20px 20px 0 0;
+        height: 30px;
+
+    }
+    .pricing-2 {
+        max-width: 25rem;
+        height: 30rem;
+        background-color: #dedede;
+        border-radius: 20px;
+    }
+
+    .pricing-heading-color-2{
+        width: 25rem;
+        background-color:#0FA958;
+        border-radius: 20px 20px 0 0;
+        height: 30px;
+
+    }
+    .pricing-3 {
+        max-width: 25rem;
+        height: 30rem;
+        background-color: #dedede;
+        border-radius: 20px;
+    }
+
+    .pricing-heading-color-3{
+        width: 25rem;
+        background-color:#0d6efd;
+        border-radius: 20px 20px 0 0;
+        height: 30px;
+
+    }
+
+
+.bi-check2{
+    color: white;
+    width: 2.5rem;
+    height: 2.5rem;
+    margin-left: 1.5rem;
+
+}
+.pricing-body{
+    margin-top: 2rem;
+}
+.pricing-text{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    padding-left: 2rem;
+    color:#6a6a6a;
+    margin-left:0.1rem;
+
+}
+    
+.btn-starter{
+    width: 14rem;
+    margin-top: 10rem;
+    margin-left: 5.3rem;
+    position: absolute;
+}
+
+.button-starter{
+    width: 14rem;
+    margin-top: 10rem;
+    margin-left: 5.3rem;
+    position: absolute;
+    border-radius: 20px;
+    height: 2.4rem;
+    background-color:#bb1425;
+    border: none;
+
+}
+.button-starter:hover{
+    background-color: #880303;
+    transition: 1s;
+}
+/* Pricing css finished here */
+
+/* Footer css started here */
+#footer ul{
+    list-style-type: none;
+    margin-left: -2.1rem;
+}
+#footer span{
+    padding-left: 20px;
+    font-size: 20px;
+    color: white;
+    font-weight: 300;
+    margin-top: 3px;
+}
+
+.footer-vr{
+    height: 300px;
+    border-left: 2px solid white;
+}
+
+
+input[type=mail] {
+    padding-left: 5rem;
+    border: none;
+    border-bottom: 2px solid white;
+    background-color: transparent;
+    color: #ccc;
+}
+input[type=mail]:focus {
+
+   outline: none;
+
+}
+#footer ::-webkit-input-placeholder {
+    color: #dbdbdb;
+  }
+.bi-envelope{
+    color: #6a6a6a;
+    width: 2rem !important;
+    height: 2rem !important;
+    margin-top: 0.7rem;
+    color: white;
+}
+.footer-btn{
+    color: #333;
+    background-color: #ffffff;
+    border-radius: 10px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: larger;
+    font-weight:600;
+    width: 550px;
+}
+.footer-btn:hover{
+    transition:  1s;
+    background-color: #333;
+    opacity: 1;
+    color: white;
+}
+.sm{
+    width: 50px;
+    height: 50px;
+    border-radius: 75px;
+    background-color:transparent;
+    float: left;
+    margin-top: 2rem;
+    margin-left: 1rem;
+    position: relative;
+    background-color: white;
+    
+}
+
+.bi-instagram{
+    margin-top: 0.9rem;
+    margin-left: 0.9rem;
+    color: #333;
+}
+.bi-linkedin{
+    margin-top: 0.9rem;
+    margin-left: 0.9rem;
+    color: #333;
+}
+
+#footer a svg{
+    transition: all 0.3s linear;
+}
+
+#footer a svg:hover{
+    transform: scale(1.5);
+}
+
+.bi-linkedin:hover{
+    margin-top: 0.9rem;
+    margin-left: 0.9rem;
+    color:#0d6efd;
+}
+.bi-instagram:hover{
+    margin-top: 0.9rem;
+    margin-left: 0.9rem;
+    color: #e11d74;
+}
+#footer ul li a{
+    text-decoration:none;
+    color: white;
+}
+
+
+#footer ul li a:hover{
+        color: #333;
+        transition: all 0.1s linear;
+}
+/* .bi-twitter{
+    margin-top: 0.60rem;
+    margin-left: 0.63rem;
+    color: #333;
+}
+.bi-facebook{
+    margin-top: 0.60rem;
+    margin-left: 0.63rem;
+    color: #333;
+} */
+
+/* Footer css finished here */
+
+/************* BREAKPOINTS BREAKPOINTS BREAKPOINTS BREAKPOINTS BREAKPOINTS BREAKPOINTS BREAKPOINTS  ************/
+
+
+/* MAX-WIDTH 576PX  FOR XS SCREEN*/
+@media (max-width: 575.98px) {
+
+
+    .slider-text-1 {
+        margin-top: 4.5rem;
+        margin-left: 3rem;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 1.5rem;
+        color: #F94B4B;
+    }
+
+    .slider-text-2 {
+        margin-top: 6rem;
+        margin-left: 3rem;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 1.5rem;
+    }
+
+    .slider-text-3 {
+        margin-top: 7.5rem;
+        margin-left: 3rem;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 1.5rem;
+    }
+
+    .slider-text-4 {
+        margin-top: 9rem;
+        margin-left: 12.3rem;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 1.5rem;
+        color: #F94B4B;
+    }
+
+    .slider-search {
+        margin-top: 11.5rem;
+        position: absolute;
+        margin-left: 3rem;
+        width: 17rem;
+        height: 2.2rem;
+        border: none;
+        border-radius: 75px;
+        outline: none;
+        margin-bottom: 2rem;
+    }
+
+    .search-icon {
+        margin-top: 11.6rem;
+        margin-left: 3.6rem;
+        background-color: #9F0000;
+        padding: 1rem;
+        width: 15px;
+        height: 15px;
+        border-radius: 200px;
+    }
+
+    .bi-search {
+        display: inline-block;
+        text-align: center;
+        vertical-align: middle;
+        justify-content: center;
+        color: white;
+        position: absolute;
+        bottom: 0.2rem;
+        left: 0.5rem;
+    }
+
+    input[type=search] {
+        padding-left: 3rem;
+        font-size: 10px;
+    }
+
+    .fa-location-crosshairs {
+        margin-top: 12.1rem;
+        margin-left: 18.5rem;
+        font-size: large;
+    }
+        /* popular meals slider */
+        .p-meals-h1{
+            margin-top: 3rem !important;
+            font-size:1.5rem !important;
+            margin-left: 1rem !important;
+            
+        }
+            .food{
+                max-width: 26rem;
+                margin-left:auto;
+                margin-right: auto;
+                background-color: rgb(255, 255, 255);
+                height: 11rem;
+                border-radius: 20px;
+                border:3px solid rgb(255, 255, 255);
+                
+            }
+            .food-img{
+           
+                margin-left: auto;
+                margin-right: auto;
+                background-color: rgb(255, 255, 255);
+                height:5rem;
+                border-radius: 20px 20px 0 0 ;
+                margin-bottom: 1.2rem;
+                
+                
+            }
+            /* .food-img-heading{
+
+            } */
+            .f-heading{
+                font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                font-weight: bold;
+                font-size: 0.7rem;
+                color: black;
+            }
+            .f-price{
+                font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                font-weight:bold;
+                font-size: 0.7rem;
+                color: #9F0000;
+            }
+            
+            .food-image-1{
+                border-radius: 20px 20px 0 0;
+                height: 5.5rem;
+                width: 10rem;
+             
+            }
+        
+    /* popular meals slider */
+    
+/* Categories */
+.c-f-circle{
+    width: 75px;
+    height: 70px;
+    border-radius: 100px;
+    border: 3px solid #9F0000;
+    
+}
+.c-images{
+    width: 75px;
+    height: 65px;
+    border-radius: 100px;
+    text-align: center;
+}
+#categories h3{
+    font-size: 14px !important;
+}
+#categories h1{
+    font-size: 30px !important;
+}
+/* Categories */
+
+/* Chiefs css */
+
+.chief-heading{
+    font-size: 24px !important;
+
+
+}
+.chief{
+    max-width: 12rem;
+    height: 12rem;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 30px;
+    padding: 2px;
+    margin-top: -5px;
+    position: relative;
+
+}
+.chief-img{
+    width: 4rem;
+    height: 4rem;
+    text-align: center;
+    border-radius: 100px;
+    margin: auto;
+    margin-bottom: 14px;
+}
+
+.chiefs-h4-text{
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight: 500;
+        color: white;
+        font-size: 12px!important;
+        margin-bottom: 2px;
+}
+.chiefs-h5-text{
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight:100;
+        color: white;
+        font-size: 8px!important;
+       
+}
+
+.chief-img img{
+    width: 4rem;
+    height: 4rem;
+}
+
+ .bi-star-fill{
+    width: 0.6rem;
+    height: 0.6rem;
+}
+.bi-star-half{
+    width: 0.6rem;
+    height: 0.6rem;
+}
+.bi-star{
+    width: 0.6rem;
+    height: 0.6rem;
+}
+
+/* Chiefs css */
+        /* Pricing css started here */
+            .chief-heading{
+                font-size: 35px !important;
+                margin-top: 1.5rem;
+            }
+                    .pricing-1 {
+                        max-width: 15rem;
+                        height: 30rem;
+                        background-color: #dedede;
+                        border-radius: 20px;
+                        position: relative;
+                        margin-bottom: 2rem;
+            
+                    
+                        
+                    }
+
+                    .pricing-heading-color-1{
+                        width: 15rem;
+                        background-color:#dc3545;
+                        border-radius: 20px 20px 0 0;
+                        height: 30px;
+
+                    }
+                    .pricing-2 {
+                        max-width: 15rem;
+                        height: 30rem;
+                        background-color: #dedede;
+                        border-radius: 20px;
+                        margin-bottom: 2rem;
+                    }
+
+                    .pricing-heading-color-2{
+                        width: 15rem;
+                        background-color:#0FA958;
+                        border-radius: 20px 20px 0 0;
+                        height: 30px;
+
+                    }
+                    .pricing-3 {
+                        max-width: 15rem;
+                        height: 30rem;
+                        background-color: #dedede;
+                        border-radius: 20px;
+                        margin-bottom: 2rem;
+                    }
+
+                    .pricing-heading-color-3{
+                        width: 15rem;
+                        background-color:#0d6efd;
+                        border-radius: 20px 20px 0 0;
+                        height: 30px;
+
+                    }
+
+
+                    .bi-check2{
+                    color: white;
+                    width: 1.5rem;
+                    height: 1.5rem;
+                    margin-left: 1.5rem;
+
+                    }
+                    .pricing-body{
+                    margin-top: 1rem;
+                    }
+                    .pricing-text{
+                    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                    font-weight: 400;
+                    font-size: 12px;
+                    padding-left: 1rem;
+                    color:#6a6a6a;
+                    margin-left:0.1rem;
+
+                    }
+
+                    .btn-starter{
+                    width: 10rem;
+                    margin-top: 11rem;
+                    margin-left: 2.6rem;
+                    position: absolute;
+                    }
+        /* Pricing css finished here */
+        /* Footer mobil css started here */
+        input[type=mail] {
+            padding-left: 2.5rem;
+            border: none;
+            border-bottom: 2px solid white;
+            background-color: transparent;
+            color: #ccc;
+            width: 18rem !important;
+            height: 3rem !important;
+        }
+        input[type=mail]:focus {
+        
+           outline: none;
+        
+        }
+        #footer ::-webkit-input-placeholder {
+            color: #dbdbdb;
+          }
+        .bi-envelope{
+            color: #6a6a6a;
+            width: 1.3rem !important;
+            height: 1.3rem !important;
+            margin-top: 0.5rem;
+            color: white;
+            margin-left: -10px !important;
+        }
+        .footer-btn{
+            color: #333;
+            background-color: #ffffff;
+            border-radius: 10px;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-size: larger;
+            font-weight:600;
+            width: 18rem;
+        }
+        .footer-btn:hover{
+            transition:  1s;
+            background-color: #333;
+            opacity: 1;
+            color: white;
+        }
+        /* Footer mobil css started here */
+    
+}
+/* MAX-WIDTH 576PX  FOR XS SCREEN*/
+
+/** MAX-WIDTH 768PX FOR SM SCREEN**/
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .slider-container {
+        padding: 0px;
+        margin-top: 30px;
+
+    }
+
+    .slider-text-1 {
+
+        margin-top: 7rem;
+        margin-left: 5rem;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 2.5rem;
+        color: #F94B4B;
+    }
+
+    .slider-text-2 {
+        margin-top: 9.5rem;
+        margin-left:5rem;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 2.5rem;
+    }
+
+    .slider-text-3 {
+        margin-top: 12rem;
+        margin-left: 5rem;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 2.5rem;
+    }
+
+    .slider-text-4 {
+        margin-top: 14.3rem;
+        margin-left: 20.5rem;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 2.5rem;
+        color: #F94B4B;
+    }
+
+    .slider-search {
+        margin-top: 16rem;
+        position: absolute;
+        margin-left:5rem;
+        width: 25rem;
+        height: 3rem;
+        border: none;
+        border-radius: 75px;
+        outline: none;
+        bottom: 1rem;
+
+    }
+
+    .search-icon {
+        margin-top:24.3rem;
+        margin-left: 6rem;
+        background-color: #9F0000;
+        padding: 1rem;
+        width: 20px;
+        height: 20px;
+        border-radius: 200px;
+    }
+
+    .bi-search {
+        display: inline-block;
+        text-align: center;
+        vertical-align: middle;
+        justify-content: center;
+        color: white;
+        position: absolute;
+        bottom: 0.2rem;
+        left: 0.5rem;
+    }
+
+    input[type=search] {
+        padding-left: 4.5rem;
+        font-size: 15px;
+    }
+
+    .fa-location-crosshairs {
+        margin-top: 24.6rem;
+        margin-left: 27.5rem;
+        font-size: x-large;
+
+    }
+    .p-meals-text{
+        display: flex;
+        align-items: center;
+        
+     }
+
+       /* popular meals slider */
+       .p-meals-h1{
+
+            margin-top: 3rem !important;
+            font-size:2.5rem !important;
+            margin-left: 1rem !important;
+        }
+    
+        
+
+        .food{
+            max-width: 26rem;
+            margin-left:auto;
+            margin-right: auto;
+            background-color: rgb(255, 255, 255);
+            height: 15rem;
+            border-radius: 30px;
+            border:3px solid rgb(255, 255, 255);
+            
+        }
+        .food-img{
+       
+            margin-left: auto;
+            margin-right: auto;
+            background-color: rgb(255, 255, 255);
+            height:5rem;
+            border-radius: 30px 30px 0 0 ;
+            margin-bottom: 4.5rem;
+            
+            
+        }
+        /* .food-img-heading{
+
+        } */
+        .f-heading{
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-weight: bold;
+            font-size: 0.89rem;
+            color: black;
+        }
+        .f-price{
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-weight:bold;
+            font-size: 1.3rem;
+            color: #9F0000;
+        }
+        
+        .food-image-1{
+            border-radius: 30px 30px 0 0;
+            height: 8rem;
+            width: 12rem;
+         
+        }
+  
+/* popular meals slider */
+
+/* Categories */
+        .c-f-circle{
+            width: 100px;
+            height: 95px;
+            border-radius: 100px;
+            border: 3px solid #9F0000;
+
+        }
+        .c-images{
+            width: 100px;
+            height: 90px;
+            border-radius: 100px;
+            text-align: center;
+        }
+        #categories h3{
+            font-size: 16px !important;
+        }
+        #categories h1{
+            font-size: 35px !important;
+        }
+/* Categories */
+   /* Chiefs css */
+
+.chief-heading{
+    font-size: 30px !important;
+
+
+}
+.chief{
+    max-width: 12rem;
+    height: 12rem;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 30px;
+    padding: 2px;
+    margin-top: -5px;
+    position: relative;
+
+}
+.chief-img{
+    width: 6rem;
+    height: 6rem;
+    text-align: center;
+    border-radius: 100px;
+    margin: auto;
+    margin-bottom: 14px;
+}
+
+.chiefs-h4-text{
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight: 500;
+        color: white;
+        font-size: 11px!important;
+        margin-bottom: 2px;
+}
+.chiefs-h5-text{
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight:100;
+        color: white;
+        font-size: 10px!important;
+       
+}
+
+.chief-img img{
+    width: 6rem;
+    height: 6rem;
+}
+
+ .bi-star-fill{
+    width: 0.8rem;
+    height: 0.8rem;
+}
+.bi-star-half{
+    width: 0.8rem;
+    height: 0.8rem;
+}
+.bi-star{
+    width: 0.8rem;
+    height: 0.8rem;
+}
+
+/* Chiefs css */ 
+        /* Pricing css started here */
+        .chief-heading{
+            font-size: 45px !important;
+            margin-top: 1.5rem;
+        }
+                .pricing-1 {
+                    max-width: 20rem;
+                    height: 30rem;
+                    background-color: #dedede;
+                    border-radius: 20px;
+                    position: relative;
+                    margin-bottom: 3rem;
+                    margin: auto;
+                    
+             
+      
+                    
+                }
+
+                .pricing-heading-color-1{
+                    width: 20rem;
+                    background-color:#dc3545;
+                    border-radius: 20px 20px 0 0;
+                    height: 30px;
+
+                }
+                .pricing-2 {
+                    max-width: 20rem;
+                    height: 30rem;
+                    background-color: #dedede;
+                    border-radius: 20px;
+                    margin-top: 3rem!important;
+                    margin-bottom: 4rem;
+                    margin: auto;
+                }
+
+                .pricing-heading-color-2{
+                    width: 20rem;
+                    background-color:#0FA958;
+                    border-radius: 20px 20px 0 0;
+                    height: 30px;
+
+                }
+                .pricing-3 {
+                    max-width: 20rem;
+                    height: 30rem;
+                    background-color: #dedede;
+                    border-radius: 20px;
+                    margin-bottom: 2rem;
+                    margin-top: 3rem!important;
+                    margin: auto;
+                }
+
+                .pricing-heading-color-3{
+                    width: 20rem;
+                    background-color:#0d6efd;
+                    border-radius: 20px 20px 0 0;
+                    height: 30px;
+
+                }
+
+
+                .bi-check2{
+                color: white;
+                width: 2rem;
+                height: 2rem;
+                margin-left: 1.5rem;
+
+                }
+                .pricing-body{
+                margin-top: 1.5rem;
+                }
+                .pricing-text{
+                font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                font-weight: 400;
+                font-size: 14px;
+                padding-left: 1rem;
+                color:#6a6a6a;
+                margin-left:0.1rem;
+
+                }
+
+                .btn-starter{
+                width: 10rem;
+                margin-top: 11rem;
+                margin-left: 5.1rem;
+                position: absolute;
+                }
+    /* Pricing css finished here */
+}
+/** MAX-WIDTH 768PX FOR SM SCREEN**/
+
+/*** MIN-WIDTH 768PX AND MAX-WIDTH 992PX FOR MD SCREEN ***/
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .slider-text-1 {
+
+        margin-top: 7.5rem;
+        margin-left: 6rem;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 3rem;
+        color: #F94B4B;
+    }
+
+    .slider-text-2 {
+        margin-top: 10.5rem;
+        margin-left: 6rem;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 3rem;
+    }
+
+    .slider-text-3 {
+        margin-top: 13.5rem;
+        margin-left: 6rem;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 3rem;
+    }
+
+    .slider-text-4 {
+        margin-top: 16.5rem;
+        margin-left: 24.5rem;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 3rem;
+        color: #F94B4B;
+    }
+
+    .slider-search {
+        margin-top: 22rem;
+        position: absolute;
+        margin-left: 6.5rem;
+        width: 30rem;
+        height: 3.5rem;
+        border: none;
+        border-radius: 75px;
+        outline: none;
+        margin-bottom: 2rem;
+    }
+
+    .search-icon {
+        margin-top: 22.2rem;
+        margin-left: 7.3rem;
+        background-color: #9F0000;
+        padding: 1rem;
+        width: 50px;
+        height: 50px;
+        border-radius: 200px;
+    }
+
+    .bi-search {
+        display: inline-block;
+        text-align: center;
+        vertical-align: middle;
+        justify-content: center;
+        color: white;
+        position: absolute;
+        bottom: 0.8rem;
+        left: 1.1rem;
+
+    }
+
+    input[type=search] {
+        padding-left: 5.5rem;
+        font-size: 17px;
+    }
+
+    .fa-location-crosshairs {
+        margin-top: 22.8rem;
+        margin-left: 33.5rem;
+        font-size: xx-large;
+
+    }
+    .p-meals-text{
+        display: flex;
+        align-items: center;
+        
+     }
+     .p-meals-h1{
+        font-size: 26px;
+        float: left;
+       
+     }
+      /* popular meals slider */
+      .p-meals-h1{
+
+        margin-top: 3rem !important;
+        font-size:2.8rem !important;
+        margin-left: 1rem !important;
+    }
+
+        .food{
+            max-width: 26rem;
+            margin-left:auto;
+            margin-right: auto;
+            background-color: rgb(255, 255, 255);
+            height: 20rem;
+            border-radius: 30px;
+            border:3px solid rgb(255, 255, 255);
+            
+        }
+        .food-img{
+       
+            margin-left: auto;
+            margin-right: auto;
+            background-color: rgb(255, 255, 255);
+            height:5rem;
+            border-radius: 30px 30px 0 0 ;
+            margin-bottom:5.6rem;
+            
+            
+        }
+        /* .food-img-heading{
+
+        } */
+        .f-heading{
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-weight: bold;
+            font-size: 1.4rem;
+            color: black;
+        }
+        .f-price{
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-weight:bold;
+            font-size: 1.8rem;
+            color: #9F0000;
+        }
+        
+        .food-image-1{
+            border-radius: 30px 30px 0 0;
+            height: 9rem;
+            width: 16rem;
+         
+        }
+  
+/* popular meals slider */
+     /* Chiefs css */
+
+.chief-heading{
+    font-size: 40px !important;
+
+
+}
+.chief{
+    max-width: 12rem;
+    height: 12rem;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 5s0px;
+    padding: 2px;
+    margin-top: -5px;
+    position: relative;
+
+}
+.chief-img{
+    width: 8rem;
+    height: 8rem;
+    text-align: center;
+    border-radius: 100px;
+    margin: auto;
+    margin-bottom: 14px;
+}
+
+.chiefs-h4-text{
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight: 500;
+        color: white;
+        font-size: 15px!important;
+        margin-bottom: 2px;
+}
+.chiefs-h5-text{
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight:100;
+        color: white;
+        font-size: 14px!important;
+       
+}
+
+.chief-img img{
+    width: 8rem;
+    height: 8rem;
+}
+
+ .bi-star-fill{
+    width: 1rem;
+    height:1rem;
+}
+.bi-star-half{
+    width: 1rem;
+    height: 1rem;
+}
+.bi-star{
+    width: 1rem;
+    height:1rem;
+}
+
+/* Chiefs css */ 
+            /* Pricing css started here */
+            .chief-heading{
+                font-size: 65px !important;
+                margin-top: 1.5rem;
+            }
+                    .pricing-1 {
+                        max-width: 25rem;
+                        height: 30rem;
+                        background-color: #dedede;
+                        border-radius: 20px;
+                        position: relative;
+                        margin-bottom: 3rem;
+                        margin: auto;
+                    }
+
+                    .pricing-heading-color-1{
+                        width: 25rem;
+                        background-color:#dc3545;
+                        border-radius: 20px 20px 0 0;
+                        height: 30px;
+
+                    }
+                    .pricing-2 {
+                        max-width: 25rem;
+                        height: 30rem;
+                        background-color: #dedede;
+                        border-radius: 20px;
+                        margin-top: 3rem!important;
+                        margin-bottom: 4rem;
+                        margin: auto;
+                    }
+
+                    .pricing-heading-color-2{
+                        width: 25rem;
+                        background-color:#0FA958;
+                        border-radius: 20px 20px 0 0;
+                        height: 30px;
+
+                    }
+                    .pricing-3 {
+                        max-width: 25rem;
+                        height: 30rem;
+                        background-color: #dedede;
+                        border-radius: 20px;
+                        margin-bottom: 2rem;
+                        margin-top: 3rem!important;
+                        margin: auto;
+                    }
+
+                    .pricing-heading-color-3{
+                        width: 25rem;
+                        background-color:#0d6efd;
+                        border-radius: 20px 20px 0 0;
+                        height: 30px;
+
+                    }
+
+
+                    .bi-check2{
+                    color: white;
+                    width: 2.5rem;
+                    height: 2.5rem;
+                    margin-left: 1.5rem;
+
+                    }
+                    .pricing-body{
+                    margin-top: 1.5rem;
+                    }
+                    .pricing-text{
+                    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                    font-weight: 400;
+                    font-size: 18px;
+                    padding-left: 1rem;
+                    color:#6a6a6a;
+                    margin-left:0.1rem;
+
+                    }
+
+                    .btn-starter{
+                    width: 12rem;
+                    margin-top: 11rem;
+                    margin-left: 6.5rem;
+                    position: absolute;
+                    font-size: 20px;
+       
+                    }
+            /* Pricing css finished here */
+}
+/*** MIN-WIDTH 768PX AND MAX-WIDTH 992PX FOR MD SCREEN ***/
+
+
+/**** MIN-WIDTH 992PX AND MAX-WIDTH 1200PX FOR LG SCREEN ****/
+@media(min-width:992px) and (max-width:1199.98px){
+    .slider-text-1 {
+
+        margin-top: 8.5rem;
+        margin-left: 8.5rem;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 3rem;
+        color: #F94B4B;
+    }
+
+    .slider-text-2 {
+        margin-top: 11.5rem;
+        margin-left: 8.5rem;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 3rem;
+    }
+
+    .slider-text-3 {
+        margin-top: 14.5rem;
+        margin-left: 8.5rem;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 3rem;
+    }
+
+    .slider-text-4 {
+        margin-top: 17.5rem;
+        margin-left: 27rem;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 3rem;
+        color: #F94B4B;
+    }
+
+    .slider-search {
+        margin-top: 26rem;
+        position: absolute;
+        margin-left: 8.5rem;
+        width: 35rem;
+        height: 4rem;
+        border: none;
+        border-radius: 75px;
+        outline: none;
+        margin-bottom: 2rem;
+    }
+
+    .search-icon {
+        margin-top: 26.4rem;
+        margin-left: 9.6rem;
+        background-color: #9F0000;
+        padding: 1rem;
+        width: 50px;
+        height: 50px;
+        border-radius: 200px;
+    }
+
+    .bi-search {
+        display: inline-block;
+        text-align: center;
+        vertical-align: middle;
+        justify-content: center;
+        color: white;
+        position: absolute;
+        bottom: 0.8rem;
+        left: 1.1rem;
+
+    }
+
+    input[type=search] {
+        padding-left: 6.5rem;
+        font-size: 17px;
+    }
+
+    .fa-location-crosshairs {
+        margin-top: 27.2rem;
+        margin-left: 40rem;
+        font-size: xx-large;
+
+    }
+    .p-meals-text{
+        display: flex;
+        align-items: center;
+        
+     }
+     .p-meals-h1{
+        font-size: 26px;
+        float: left;
+       
+     }
+  /* popular meals slider */
+  .p-meals-h1{
+    margin-top: 0.5rem;
+    font-size:3rem !important;
+    
+}
+    .food{
+        max-width: 26rem;
+        margin-left:auto;
+        margin-right: auto;
+        background-color: rgb(255, 255, 255);
+        height: 23rem;
+        border-radius: 50px;
+        border:3px solid rgb(255, 255, 255);
+        
+    }
+    .food-img{
+   
+        margin-left: auto;
+        margin-right: auto;
+        background-color: rgb(255, 255, 255);
+        height:7rem;
+        border-radius: 50px 50px 0 0 ;
+        margin-bottom:4.9rem;
+        
+        
+    }
+    /* .food-img-heading{
+
+    } */
+    .f-heading{
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight: bold;
+        font-size: 1.8rem;
+        color: black;
+    }
+    .f-price{
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight:bold;
+        font-size: 1.9rem;
+        color: #9F0000;
+    }
+    
+    .food-image-1{
+        border-radius: 50px 50px 0 0;
+        height: 11rem;
+        width: 18rem;
+     
+    }
+
+
+/* popular meals slider */
+
+
+/* Categories */
+.c-f-circle{
+    width: 130px;
+    height: 125px;
+    border-radius: 100px;
+    border: 3px solid #9F0000;
+    
+}
+.c-images{
+    width: 130px;
+    height: 120px;
+    border-radius: 100px;
+    text-align: center;
+}
+#categories h3{
+    font-size: 20px !important;
+}
+/* Categories */
+            /* Pricing css started here */
+            .chief-heading{
+                font-size: 65px !important;
+                margin-top: 1.5rem;
+            }
+                    .pricing-1 {
+                        max-width: 25rem;
+                        height: 30rem;
+                        background-color: #dedede;
+                        border-radius: 20px;
+                        position: relative;
+                        margin-bottom: 3rem;
+                      
+                    }
+
+                    .pricing-heading-color-1{
+                        width: 25rem;
+                        background-color:#dc3545;
+                        border-radius: 20px 20px 0 0;
+                        height: 30px;
+
+                    }
+                    .pricing-2 {
+                        max-width:25rem;
+                        height: 30rem;
+                        background-color: #dedede;
+                        border-radius: 20px;
+                        margin-bottom: 4rem;
+                        margin: auto;
+                    }
+
+                    .pricing-heading-color-2{
+                        width: 25rem;
+                        background-color:#0FA958;
+                        border-radius: 20px 20px 0 0;
+                        height: 30px;
+
+                    }
+                    .pricing-3 {
+                        max-width: 25rem;
+                        height: 30rem;
+                        background-color: #dedede;
+                        border-radius: 20px;
+                        margin-bottom: 2rem;
+                        margin-top: 3rem!important;
+                        margin: auto;
+                    }
+
+                    .pricing-heading-color-3{
+                        width: 25rem;
+                        background-color:#0d6efd;
+                        border-radius: 20px 20px 0 0;
+                        height: 30px;
+
+                    }
+
+
+                    .bi-check2{
+                    color: white;
+                    width: 3rem;
+                    height: 3rem;
+                    margin-left: 1.5rem;
+
+                    }
+                    .pricing-body{
+                    margin-top: 1.5rem;
+                    }
+                    .pricing-text{
+                    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                    font-weight: 400;
+                    font-size: 20px;
+                    padding-left: 1rem;
+                    color:#6a6a6a;
+                    margin-left:0.1rem;
+
+                    }
+
+                    .btn-starter{
+                    width: 13rem;
+                    margin-top: 8rem;
+                    margin-left: 5.7rem;
+                    position: absolute;
+                    font-size: 22px;
+       
+                    }
+            /* Pricing css finished here */
+                    /* Footer mobil css started here */
+                        input[type=mail] {
+                            padding-left: 4.5rem;
+                            border: none;
+                            border-bottom: 2px solid white;
+                            background-color: transparent;
+                            color: #ccc;
+                            width: 26rem !important;
+                            height: 3rem !important;
+                        }
+                        input[type=mail]:focus {
+                        
+                        outline: none;
+                        
+                        }
+                        #footer ::-webkit-input-placeholder {
+                            color: #dbdbdb;
+                        }
+                        .bi-envelope{
+                            color: #6a6a6a;
+                            width: 2rem !important;
+                            height:2rem !important;
+                            margin-top: 0.5rem;
+                            color: white;
+                            margin-left: -10px !important;
+                        }
+                        .footer-btn{
+                            color: #333;
+                            background-color: #ffffff;
+                            border-radius: 10px;
+                            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                            font-size: larger;
+                            font-weight:600;
+                            width: 26rem;
+                        }
+                        .footer-btn:hover{
+                            transition:  1s;
+                            background-color: #333;
+                            opacity: 1;
+                            color: white;
+                        }
+                        /* Footer mobil css started here */
+
+}
+/**** MIN-WIDTH 992PX AND MAX-WIDTH 1200PX FOR LG SCREEN ****/
+
+/**** MIN-WIDTH 1200PX AND MIN-WIDTH 1400PX FOR XL AND XXL SCREEN ****/
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+    .slider-text-1 {
+
+        margin-top: 14.5rem;
+        margin-left: 10.5rem;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 3rem;
+        color: #F94B4B;
+    }
+
+    .slider-text-2 {
+        margin-top: 18rem;
+        margin-left: 10.5rem;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 3rem;
+    }
+
+    .slider-text-3 {
+        margin-top: 21.5rem;
+        margin-left: 10.5rem;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 3rem;
+    }
+
+    .slider-text-4 {
+        margin-top: 24.5rem;
+        margin-left: 29rem;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 3rem;
+        color: #F94B4B;
+    }
+    .p-meals-text{
+        display: flex;
+        align-items: center;
+        
+        
+     }
+     .p-meals-h1{
+        font-size: 35px;
+        float: left;
+        margin-left: 30px;
+       
+     }
+      /* popular meals slider */
+  .p-meals-h1{
+    margin-top: 0.5rem;
+    font-size:4rem !important;
+    
+}
+    .food{
+        max-width: 26rem;
+        margin-left:auto;
+        margin-right: auto;
+        background-color: rgb(255, 255, 255);
+        height: 28rem;
+        border-radius: 50px;
+        border:3px solid rgb(255, 255, 255);
+        
+    }
+    .food-img{
+   
+        margin-left: auto;
+        margin-right: auto;
+        background-color: rgb(255, 255, 255);
+        height:9rem;
+        border-radius: 50px 50px 0 0 ;
+        margin-bottom:5.5rem;
+        
+        
+    }
+    /* .food-img-heading{
+
+    } */
+    .f-heading{
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight: bold;
+        font-size: 2.1rem;
+        color: black;
+    }
+    .f-price{
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight:bold;
+        font-size: 2.5rem;
+        color: #9F0000;
+    }
+    
+    .food-image-1{
+        border-radius: 50px 50px 0 0;
+        height: 14rem;
+        width: 22rem;
+     
+    }
+
+/* popular meals slider */
+/* Categories */
+.c-f-circle{
+    width: 160px;
+    height: 155px;
+    border-radius: 100px;
+    border: 3px solid #9F0000;
+    
+}
+.c-images{
+    width: 160px;
+    height: 150px;
+    border-radius: 100px;
+    text-align: center;
+}
+#categories h3{
+    font-size: 24px !important;
+}
+/* Categories */
+            /* Pricing css started here */
+            .chief-heading{
+                font-size: 65px !important;
+                margin-top: 1.5rem;
+            }
+                    .pricing-1 {
+                        max-width: 25rem;
+                        height: 35rem;
+                        background-color: #dedede;
+                        border-radius: 20px;
+                        position: relative;
+                        margin-bottom: 3rem;
+                      
+                    }
+
+                    .pricing-heading-color-1{
+                        width: 25rem;
+                        background-color:#dc3545;
+                        border-radius: 20px 20px 0 0;
+                        height: 30px;
+
+                    }
+                    .pricing-2 {
+                        max-width:25rem;
+                        height: 35rem;
+                        background-color: #dedede;
+                        border-radius: 20px;
+                        margin-bottom: 4rem;
+                        margin: auto;
+                    }
+
+                    .pricing-heading-color-2{
+                        width: 25rem;
+                        background-color:#0FA958;
+                        border-radius: 20px 20px 0 0;
+                        height: 30px;
+
+                    }
+                    .pricing-3 {
+                        max-width: 25rem;
+                        height: 35rem;
+                        background-color: #dedede;
+                        border-radius: 20px;
+                        margin-bottom: 2rem;
+                        margin-top: 3rem!important;
+                        margin: auto;
+                    }
+
+                    .pricing-heading-color-3{
+                        width: 25rem;
+                        background-color:#0d6efd;
+                        border-radius: 20px 20px 0 0;
+                        height: 30px;
+
+                    }
+
+
+                    .bi-check2{
+                    color: white;
+                    width: 3.5rem;
+                    height: 3.5rem;
+                    margin-left: 1.5rem;
+
+                    }
+                    .pricing-body{
+                    margin-top: 1.5rem;
+                    }
+                    .pricing-text{
+                    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                    font-weight: 400;
+                    font-size: 24px;
+                    padding-left: 1rem;
+                    color:#6a6a6a;
+                    margin-left:0.1rem;
+
+                    }
+
+                    .btn-starter{
+                    width: 14rem;
+                    margin-top: 9.5rem;
+                    margin-left: 5.7rem;
+                    position: absolute;
+                    font-size: 24px;
+       
+                    }
+            /* Pricing css finished here */
+             /* Footer mobil css started here */
+             input[type=mail] {
+                padding-left: 4.5rem;
+                border: none;
+                border-bottom: 2px solid white;
+                background-color: transparent;
+                color: #ccc;
+                width: 32rem !important;
+                height: 3rem !important;
+            }
+            .footer-btn{
+                color: #333;
+                background-color: #ffffff;
+                border-radius: 10px;
+                font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                font-size: larger;
+                font-weight:600;
+                width: 32rem;
+            }
+             /* Footer mobil css started here */
+}
+/**** MIN-WIDTH 1200PX AND MIN-WIDTH 1400PX FOR XL AND XXL SCREEN ****/
+
+
+@media (min-width: 1400px) {
+ }
+
+
+/********** BREAKPOINTS BREAKPOINTS BREAKPOINTS BREAKPOINTS BREAKPOINTS BREAKPOINTS BREAKPOINTS  ************/

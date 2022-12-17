@@ -7,6 +7,8 @@ for (let i = 0; i < BtnCanvas.length; i++){
 }
 // When click menu items, offcanvas menu closing
 
+//  Bu sitenin tasarımı ve kodlanması Rıdvan Güzel Tarafından yapılmıştır. 
+//  Bu sitenin tasarımı ve kodlanması Rıdvan Güzel Tarafından yapılmıştır. 
 
 
  

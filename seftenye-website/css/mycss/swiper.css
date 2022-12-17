@@ -15,7 +15,7 @@
   padding: 20px;
   border-radius: 30px;
 
-}
+}/* Bu sitenin tasarımı ve kodlanması Rıdvan Güzel Tarafından yapılmıştır.  */
 
 .card{
   border-radius: 50px;
@@ -87,15 +87,17 @@
   color: #9F0000;
   font-weight: 700;
 }
-
+/* Bu sitenin tasarımı ve kodlanması Rıdvan Güzel Tarafından yapılmıştır.  */
 
 .swiper-navBtn{
   color: #ffffff;
   transition: color 0.3s ease;
+  /* Bu sitenin tasarımı ve kodlanması Rıdvan Güzel Tarafından yapılmıştır.  */
 }
 .swiper-navBtn:hover{
   color: rgb(94, 94, 94);
 }
+/* Bu sitenin tasarımı ve kodlanması Rıdvan Güzel Tarafından yapılmıştır.  */
 .swiper-navBtn::before,
 .swiper-navBtn::after{
   font-size: 35px;
@@ -125,8 +127,7 @@
     padding: 20px;
     border-radius: 30px;
   
-  }
-  
+  }/* Bu sitenin tasarımı ve kodlanması Rıdvan Güzel Tarafından yapılmıştır.  */
   .card{
     border-radius: 50px;
     background-color: rgb(255, 255, 255);
@@ -161,7 +162,7 @@
     border-radius: 50px 50px 0 0px;
   }
   
-  
+  /* Bu sitenin tasarımı ve kodlanması Rıdvan Güzel Tarafından yapılmıştır.  */
   .card-image{
     position: relative;
     height: 180px;
@@ -190,6 +191,7 @@
     font-weight: 700;
   
   }
+  /* Bu sitenin tasarımı ve kodlanması Rıdvan Güzel Tarafından yapılmıştır.  */
   .description{
     font-size: 16px;
     color: #707070;
@@ -237,5 +239,5 @@
     display: none;
   }
   
-
+/* Bu sitenin tasarımı ve kodlanması Rıdvan Güzel Tarafından yapılmıştır.  */
 }

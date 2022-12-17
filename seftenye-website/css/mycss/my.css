@@ -638,6 +638,7 @@ input[type=mail]:focus {
                 
                 
             }
+            /* Bu sitenin tasarımı ve kodlanması Rıdvan Güzel Tarafından yapılmıştır. */
             /* .food-img-heading{
 
             } */
@@ -671,6 +672,7 @@ input[type=mail]:focus {
     border: 3px solid #9F0000;
     
 }
+ /* Bu sitenin tasarımı ve kodlanması Rıdvan Güzel Tarafından yapılmıştır. */
 .c-images{
     width: 75px;
     height: 65px;
@@ -744,7 +746,7 @@ input[type=mail]:focus {
     width: 0.6rem;
     height: 0.6rem;
 }
-
+ /* Bu sitenin tasarımı ve kodlanması Rıdvan Güzel Tarafından yapılmıştır. */
 /* Chiefs css */
         /* Pricing css started here */
             .chief-heading{
@@ -801,7 +803,7 @@ input[type=mail]:focus {
 
                     }
 
-
+ /* Bu sitenin tasarımı ve kodlanması Rıdvan Güzel Tarafından yapılmıştır. */
                     .bi-check2{
                     color: white;
                     width: 1.5rem;
@@ -864,6 +866,7 @@ input[type=mail]:focus {
             font-weight:600;
             width: 18rem;
         }
+         /* Bu sitenin tasarımı ve kodlanması Rıdvan Güzel Tarafından yapılmıştır. */
         .footer-btn:hover{
             transition:  1s;
             background-color: #333;
@@ -937,7 +940,7 @@ input[type=mail]:focus {
         height: 20px;
         border-radius: 200px;
     }
-
+ /* Bu sitenin tasarımı ve kodlanması Rıdvan Güzel Tarafından yapılmıştır. */
     .bi-search {
         display: inline-block;
         text-align: center;
@@ -1012,7 +1015,7 @@ input[type=mail]:focus {
             font-size: 1.3rem;
             color: #9F0000;
         }
-        
+         /* Bu sitenin tasarımı ve kodlanması Rıdvan Güzel Tarafından yapılmıştır. */
         .food-image-1{
             border-radius: 30px 30px 0 0;
             height: 8rem;
@@ -1819,6 +1822,7 @@ input[type=mail]:focus {
         
         
      }
+      /* Bu sitenin tasarımı ve kodlanması Rıdvan Güzel Tarafından yapılmıştır. */
      .p-meals-h1{
         font-size: 35px;
         float: left;
@@ -1867,7 +1871,7 @@ input[type=mail]:focus {
         font-size: 2.5rem;
         color: #9F0000;
     }
-    
+     /* Bu sitenin tasarımı ve kodlanması Rıdvan Güzel Tarafından yapılmıştır. */
     .food-image-1{
         border-radius: 50px 50px 0 0;
         height: 14rem;
@@ -1932,6 +1936,7 @@ input[type=mail]:focus {
                         height: 30px;
 
                     }
+                     /* Bu sitenin tasarımı ve kodlanması Rıdvan Güzel Tarafından yapılmıştır. */
                     .pricing-3 {
                         max-width: 25rem;
                         height: 35rem;
@@ -1990,6 +1995,7 @@ input[type=mail]:focus {
                 width: 32rem !important;
                 height: 3rem !important;
             }
+             /* Bu sitenin tasarımı ve kodlanması Rıdvan Güzel Tarafından yapılmıştır. */
             .footer-btn{
                 color: #333;
                 background-color: #ffffff;
@@ -2009,3 +2015,5 @@ input[type=mail]:focus {
 
 
 /********** BREAKPOINTS BREAKPOINTS BREAKPOINTS BREAKPOINTS BREAKPOINTS BREAKPOINTS BREAKPOINTS  ************/
+
+ /* Bu sitenin tasarımı ve kodlanması Rıdvan Güzel Tarafından yapılmıştır. */

@@ -4,6 +4,7 @@ body {
 
 /* Navbar Css */
 
+
 #mainNavbar {
     padding-top: 1rem;
     padding-bottom: 1rem;
@@ -103,11 +104,24 @@ body {
     border: none !important;
 }
 
-.btn-close {
-    color: white !important;
-}
+
 
 /* Navbar Css */
+
+/* Login and create css */
+    .logIn-input{
+            width: 24rem;
+            height: 3.5rem;
+    }
+
+
+.form-control:focus {
+    border-color: #9F0000;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(255, 0, 0, 0.6);
+  }
+
+
+/* Login and create css */
 
 /* main Slider Css */
 .slider-container {
@@ -536,7 +550,10 @@ input[type=mail]:focus {
 /* MAX-WIDTH 576PX  FOR XS SCREEN*/
 @media (max-width: 575.98px) {
 
-
+    .logIn-input{
+        width: 18rem;
+        height: 3.5rem;
+}
     .slider-text-1 {
         margin-top: 4.5rem;
         margin-left: 3rem;
